@@ -1351,7 +1351,6 @@ function NoMercy:CreateWindow(config)
         ParagraphContent.TextWrapped = true
         Paragraph.Size = UDim2.new(1, 0, 0, math.max(46, textSize.Y + 33))
 
-        task.wait(0.1)
         UpdateContentSize()
 
         return Paragraph
@@ -1464,7 +1463,6 @@ function NoMercy:CreateWindow(config)
             end
         )
 
-        task.wait(0.1)
         UpdateContentSize()
 
         return Button
@@ -1643,7 +1641,6 @@ function NoMercy:CreateWindow(config)
             end
         )
 
-        task.wait(0.1)
         UpdateContentSize()
 
         local toggleFunc = {
@@ -1777,7 +1774,6 @@ function NoMercy:CreateWindow(config)
             end
         )
 
-        task.wait(0.1)
         UpdateContentSize()
 
         if elementId then
@@ -2255,7 +2251,6 @@ function NoMercy:CreateWindow(config)
             end
         )
 
-        task.wait(0.1)
         UpdateContentSize()
 
         local dropdownFunc = {
@@ -2595,7 +2590,6 @@ function NoMercy:CreateWindow(config)
             end
         )
 
-        task.wait(0.1)
         UpdateContentSize()
 
         local sliderFunc = {
@@ -2729,7 +2723,6 @@ function NoMercy:CreateWindow(config)
             end
         )
 
-        task.wait(0.1)
         UpdateContentSize()
 
         local imageBoxFunc = {
@@ -2810,7 +2803,6 @@ function NoMercy:CreateWindow(config)
             }
         )
 
-        task.wait(0.1)
         UpdateContentSize()
 
         return Divider
@@ -3274,7 +3266,6 @@ function NoMercy:CreateWindow(config)
                 ColorPickerFrame:Destroy()
             end
         )
-        task.wait(0.1)
         UpdateContentSize()
 
         local colorPickerFunc = {
@@ -3485,7 +3476,6 @@ function NoMercy:CreateWindow(config)
             end
         )
 
-        task.wait(0.1)
         UpdateContentSize()
 
         local keybindFunc = {
@@ -3927,3 +3917,4 @@ function NoMercy:CreateWindow(config)
 end
 
 return NoMercy
+
